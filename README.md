@@ -11,7 +11,7 @@ Python 3.13+
 uv for package management
 dotenv for environment variable handling
 #🚀 Setup Instructions
-1. Clone the Repository
+1. Clone the Repository  
 git clone https://github.com/laiba-77
 cd kpop-agent-openai-sdk
 
