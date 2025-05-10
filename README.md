@@ -1,16 +1,16 @@
 # kpopbuddy-agent-openai-sdk
 kpopBuddy is a supportive AI-powered assistant built using the OpenAI Agent SDK and Gemini API. It helps music lovers to know about what is comback about and what is kpop
 
-💡 Project Overview
+#💡 Project Overview
 This agent is designed for the kpop domain to act like a personal productivity about kpop music.
 
-🛠️ Technologies Used
+#🛠️ Technologies Used
 OpenAI Agent SDK
 Google Gemini API (via OpenAI-compatible endpoints)
 Python 3.13+
 uv for package management
 dotenv for environment variable handling
-🚀 Setup Instructions
+#🚀 Setup Instructions
 1. Clone the Repository
 git clone https://github.com/laiba-77
 cd kpop-agent-openai-sdk
@@ -21,7 +21,7 @@ uv pip install -r requirements.txt
 Create a .env file in the root directory with the following:
 
 GEMINI_API_KEY=your-gemini-api-key
-🧐 Agent Details
+#🧐 Agent Details
 from agents import Agent
 
 kpop_agent = Agent(
@@ -34,7 +34,7 @@ kpop_agent = Agent(
         """,
         model=my_model
         )
-💬 Example Interaction
+#💬 Example Interaction
 Prompt:
 
 What is a K-pop comeback?
